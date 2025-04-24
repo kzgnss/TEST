@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f7fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+main {
+  padding: 2rem;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: #e0f2ff;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  color: #1e40af;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+.hero button {
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.features {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin: 4rem 0;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  max-width: 300px;
+}
+
+.examples {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.examples h3 {
+  font-size: 2rem;
+  color: #047857;
+  margin-bottom: 1rem;
+}
+
+.examples .card {
+  margin: 1rem auto;
+}
+
+.guarantee {
+  text-align: center;
+  background: #dcfce7;
+  padding: 3rem 2rem;
+  border-radius: 16px;
+}
+
+.guarantee h3 {
+  color: #065f46;
+  font-size: 1.8rem;
+}
+
+.guarantee button {
+  margin-top: 1.5rem;
+  padding: 0.8rem 2rem;
+  background: #22c55e;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  margin-top: 4rem;
+  font-size: 0.9rem;
+  color: #666;
+}
