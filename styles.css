@@ -1,99 +1,46 @@
 body {
-  margin: 0;
   font-family: Arial, sans-serif;
   background: #f5f7fa;
-  color: #333;
-  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: #222;
 }
 
-main {
-  padding: 2rem;
-}
-
-.hero {
-  text-align: center;
-  padding: 4rem 2rem;
-  background-color: #e0f2ff;
-}
-
-.hero h1 {
-  font-size: 3rem;
-  color: #1e40af;
-}
-
-.hero p {
-  font-size: 1.2rem;
-  margin-top: 1rem;
-}
-
-.hero button {
-  margin-top: 2rem;
-  padding: 1rem 2rem;
-  background-color: #2563eb;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  font-size: 1rem;
-  cursor: pointer;
-}
-
-.features {
-  display: flex;
-  gap: 2rem;
-  justify-content: center;
-  margin: 4rem 0;
-  flex-wrap: wrap;
-}
-
-.card {
+.container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
   background: white;
-  padding: 1.5rem;
   border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-  max-width: 300px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
 }
 
-.examples {
-  text-align: center;
-  margin-bottom: 4rem;
+h1, h2, h3 {
+  color: #0a4b78;
 }
 
-.examples h3 {
-  font-size: 2rem;
-  color: #047857;
-  margin-bottom: 1rem;
-}
-
-.examples .card {
-  margin: 1rem auto;
-}
-
-.guarantee {
-  text-align: center;
-  background: #dcfce7;
-  padding: 3rem 2rem;
-  border-radius: 16px;
-}
-
-.guarantee h3 {
-  color: #065f46;
-  font-size: 1.8rem;
-}
-
-.guarantee button {
-  margin-top: 1.5rem;
-  padding: 0.8rem 2rem;
-  background: #22c55e;
-  border: none;
+a.cta-button, a.secondary-button {
+  display: inline-block;
+  margin: 15px 0;
+  padding: 12px 25px;
+  background: #0a84ff;
   color: white;
-  font-size: 1rem;
-  border-radius: 6px;
-  cursor: pointer;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+a.secondary-button {
+  background: #4caf50;
+}
+
+a.cta-button:hover, a.secondary-button:hover {
+  background: #005bb5;
 }
 
 footer {
+  margin-top: 30px;
+  font-size: 13px;
+  color: #777;
   text-align: center;
-  margin-top: 4rem;
-  font-size: 0.9rem;
-  color: #666;
 }
